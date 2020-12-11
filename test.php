@@ -42,7 +42,7 @@
   <body>
     <div id="jb-container">
       <div id="jb-header">
-        <a href="login.php"><img src = "bike.png" ></a>
+        <a href="index.php"><img src = "bike.png" ></a>
       </div>
       <div id="jb-content">
         <h1><strong>이 부분에 표를넣어주세요!</strong></h1>
