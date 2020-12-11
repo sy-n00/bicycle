@@ -8,9 +8,9 @@
     $filtered = mysqli_real_escape_string($link, $_GET['gu']);
   }
 
-    $query = "select gu, name, 반납-대여 AS '포화'
+    $query = "select gu, name, bannap-rental AS '포화'
     from rentalreturn2
-    where 반납-대여 < 0 and gu='{$filtered}'
+    where bannap-rental < 0 and gu='{$filtered}'
     ";
 
     $result = mysqli_query($link, $query);
