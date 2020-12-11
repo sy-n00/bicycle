@@ -8,12 +8,10 @@
         width: 940px;
         margin: 0px auto;
         padding: 20px;
-
       }
       #jb-header {
         padding: 20px;
         margin-bottom: 20px;
-
       }
       #jb-content {
         width: 580px;
@@ -46,33 +44,29 @@
       <div id="jb-content">
           <img src = "map.png">
             <p></p>
-
       </div>
       <div id="jb-sidebar">
-
-
           <h2><strong>자전거 포화 확인</strong></h2>
-          <form action="exceed.php.php" method="post">
+          <form action="exceed.php" method="post">
             <p></p>
             <input type="submit" value="GO">
           </form>
-
-
           <h2><strong>자전거 부족 확인</strong></h2>
           <form action="shortage.php" method="post">
+            <p></p>
+            <input type="submit" value="GO">
+          </form>
+          <h2> <strong> 구별 자전거 대여, 반납 비교 </strong> </h2>
+          <form action="graph.php" method="post">
             <p></p>
             <input type="submit" value="GO">
           </form>
   </div>
     <div id="jb-sidebar">
     <form action="recommend.php" method="post">
-
       <h2><strong>원하시는 정류소는 어디신가요?</strong></h2>
-
          <p><input type="INT" size="10" name="num" placeholder="ex)21056"></p>
-
          <h2><strong>이용하고 싶은 시간은 언제신가요?</strong></h2>
-
               <select name= "a">
               <option label ="이용시간 ex)0:00:00">
                 <option value="00"> 0:00:00 - 1:00:00  </option>
@@ -99,20 +93,14 @@
                 <option value="21">21:00:00 - 22:00:00  </option>
                 <option value="22">22:00:00 - 23:00:00  </option>
                 <option value="23">23:00:00 - 24:00:00  </option>
-
               </select>
                 <p></p>
               <input type="submit" value="GO">
             </form>
-
-
       </div>
-
       <div id="jb-footer">
           <img src = "a.png" width="900 ">
             <p></p>
-
       </div>
-
   </body>
 </html>
