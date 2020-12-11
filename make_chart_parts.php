@@ -32,3 +32,5 @@ function makeChartParts($data, $options, $type) {
   return array($chart, $div);
 }
 ?>
+<!doctype html>
+
