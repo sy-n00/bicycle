@@ -17,6 +17,10 @@
 
 ### 각 페이지 별 소개 및 이용방법
 1. Index 페이지
+자전거 포화,부족 확인 링크 연결
+원하는 정류소, 시간 링크 연결 
+
+
 ![index](https://user-images.githubusercontent.com/70589857/101937312-0cbb7380-3c25-11eb-87ac-2aa6bd1722f4.PNG)
 
 
