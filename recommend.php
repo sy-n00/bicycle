@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <?php
-  $link = mysqli_connect('localhost', 'root', '1234', 'bicycle');
+  $link = mysqli_connect('localhost', 'admin', 'admin', 'bicycle');
   $rental = mysqli_real_escape_string($link, $_POST['num']); //검색할 대여소 번호
   $s_time = mysqli_real_escape_string($link, $_POST['a']); //검색할 
   $query = "SELECT rentalplace, latitude, longitude from rentalplace_info where rentalplace_num = {$rental}"; //대여소번호를 통해 검
