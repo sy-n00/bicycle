@@ -20,7 +20,7 @@
 
 
 ### 구축 환경
-서버 : ec2
+서버 : Ubuntu Server 20.04 LTS (HVM) - AWS EC2
 <br>데이터베이스 : mariaDB
 <br>
 
