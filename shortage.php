@@ -57,12 +57,12 @@ mysqli_close($link);
   </div>
 <br>
   <h2> 구별 자전거 부족 정보</h2>
-  <form action="shortage_gu.html" method="POST">
+  <form action="shortage_gu.php" method="POST">
       <input type="text" name= "gu"  placeholder="구">
       <input type="submit" value="Search">
     </form>
     <div class ="atag">
-    <a href="index.html"> 뒤로가기 </a>
+    <a href="index.php"> 뒤로가기 </a>
   </div>
 <br>
   <table>
