@@ -73,32 +73,32 @@
 
          <h2><strong>이용하고 싶은 시간은 언제신가요?</strong></h2>
 
-            <select>
+              <select name= "a">
               <option label ="이용시간 ex)0:00:00">
-                <option vlaue="00"> 0:00:00 - 1:00:00  </option>
-                <option vlaue="01"> 1:00:00 - 2:00:00  </option>
-                <option vlaue="02"> 2:00:00 - 3:00:00  </option>
-                <option vlaue="03"> 3:00:00 - 4:00:00  </option>
-                <option vlaue="04"> 4:00:00 - 5:00:00  </option>
-                <option vlaue="05"> 5:00:00 - 6:00:00  </option>
-                <option vlaue="06"> 6:00:00 - 7:00:00  </option>
-                <option vlaue="07"> 7:00:00 - 8:00:00  </option>
-                <option vlaue="08"> 8:00:00 - 9:00:00  </option>
-                <option vlaue="09"> 9:00:00 - 10:00:00  </option>
-                <option vlaue="10">10:00:00 - 11:00:00  </option>
-                <option vlaue="11">11:00:00 - 12:00:00  </option>
-                <option vlaue="12">12:00:00 - 13:00:00  </option>
-                <option vlaue="13">13:00:00 - 14:00:00  </option>
-                <option vlaue="14">14:00:00 - 15:00:00  </option>
-                <option vlaue="15">15:00:00 - 16:00:00  </option>
-                <option vlaue="16">16:00:00 - 17:00:00  </option>
-                <option vlaue="17">17:00:00 - 18:00:00  </option>
-                <option vlaue="18">18:00:00 - 19:00:00  </option>
-                <option vlaue="19">19:00:00 - 20:00:00  </option>
-                <option vlaue="20">20:00:00 - 21:00:00  </option>
-                <option vlaue="21">21:00:00 - 22:00:00  </option>
-                <option vlaue="22">22:00:00 - 23:00:00  </option>
-                <option vlaue="23">23:00:00 - 24:00:00  </option>
+                <option value="00"> 0:00:00 - 1:00:00  </option>
+                <option value="01"> 1:00:00 - 2:00:00  </option>
+                <option value="02"> 2:00:00 - 3:00:00  </option>
+                <option value="03"> 3:00:00 - 4:00:00  </option>
+                <option value="04"> 4:00:00 - 5:00:00  </option>
+                <option value="05"> 5:00:00 - 6:00:00  </option>
+                <option value="06"> 6:00:00 - 7:00:00  </option>
+                <option value="07"> 7:00:00 - 8:00:00  </option>
+                <option value="08"> 8:00:00 - 9:00:00  </option>
+                <option value="09"> 9:00:00 - 10:00:00  </option>
+                <option value="10">10:00:00 - 11:00:00  </option>
+                <option value="11">11:00:00 - 12:00:00  </option>
+                <option value="12">12:00:00 - 13:00:00  </option>
+                <option value="13">13:00:00 - 14:00:00  </option>
+                <option value="14">14:00:00 - 15:00:00  </option>
+                <option value="15">15:00:00 - 16:00:00  </option>
+                <option value="16">16:00:00 - 17:00:00  </option>
+                <option value="17">17:00:00 - 18:00:00  </option>
+                <option value="18">18:00:00 - 19:00:00  </option>
+                <option value="19">19:00:00 - 20:00:00  </option>
+                <option value="20">20:00:00 - 21:00:00  </option>
+                <option value="21">21:00:00 - 22:00:00  </option>
+                <option value="22">22:00:00 - 23:00:00  </option>
+                <option value="23">23:00:00 - 24:00:00  </option>
 
               </select>
                 <p></p>
