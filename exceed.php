@@ -1,5 +1,5 @@
 <?php
-    $link = mysqli_connect('localhost', 'root', '', 'bicycle');
+    $link = mysqli_connect('localhost', 'root', '1234', 'bicycle');
 
     if(mysqli_connect_error($link)){
         echo "fail";
