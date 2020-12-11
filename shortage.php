@@ -1,9 +1,9 @@
 <?php
     $link = mysqli_connect('localhost:3307', 'root', '12345678', 'seoulbike');
 
-    $query = "select gu, name, 반납-대여 AS '부족'
+    $query = "select gu, name, bannap-rental AS '부족'
     from rentalreturn2
-    where 반납-대여 < 0
+    where bannap-rental < 0
     ";
 
     $result = mysqli_query($link, $query);
