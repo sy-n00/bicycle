@@ -64,7 +64,7 @@ list($chart, $div) = makeChartParts($data, $options, $type);
         <p></p>
   </div>
   <div class ="btag">
-  <a href="index.html"> 뒤로가기 </a>
+  <a href="index.php"> 뒤로가기 </a>
 </div>
   <div class ="atag">
     <?php
