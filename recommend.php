@@ -101,7 +101,7 @@
       <div id="jb-header">
         <a href="index.php"><img src = "bike.png" ></a>
         <h2><?=$time?>:00:00 - <?=$time+1?>:00:00 시간대의</h2>
-        <h2><<?=$r_p?>> 대여소는 현재 <?=$state?> 상태 입니다.</h2>
+        <h2><<?=$r_p?>> 대여소는 현재 <?=$state?> 상태 입니다.&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<a href="index.php">뒤로가기</a></h2>
       </div>
       <div id="jb-content">
         <h3><<?=$r_p?>>의 근처 대여소</h3>
