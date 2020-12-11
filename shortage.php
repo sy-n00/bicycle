@@ -1,5 +1,5 @@
 <?php
-    $link = mysqli_connect('localhost', 'root', '', 'bicycle');
+    $link = mysqli_connect('localhost', 'root', '1234', 'bicycle');
 
     $query = "select gu, name, bannap-rental AS '부족'
     from rentalreturn2
