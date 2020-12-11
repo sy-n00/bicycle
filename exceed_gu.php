@@ -65,7 +65,7 @@
 <br>
   <h2> 구별 자전거 포화 정보</h2>
   <div class ="atag">
-  <a href="exceed.html"> 뒤로가기 </a>
+  <a href="exceed.php"> 뒤로가기 </a>
 </div>
   <br>
   <table>
