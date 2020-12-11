@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="ko">
 <?php
   $link = mysqli_connect('localhost', 'root', '', 'bicycle');
   $rental = mysqli_real_escape_string($link, $_POST['num']);
