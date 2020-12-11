@@ -1,5 +1,5 @@
 <?php
-require_once './make_chart_parts.php';
+require_once './make_chart_parts.html';
 
 $data = array();
 $data[] = array('', '대여', '반납');
@@ -60,11 +60,11 @@ list($chart, $div) = makeChartParts($data, $options, $type);
 </head>
 <body>
   <div style="text-align : center;">
-      <img src = "a.png">
+      <img src = "bike.png">
         <p></p>
   </div>
   <div class ="btag">
-  <a href="index.php"> 뒤로가기 </a>
+  <a href="index.html"> 뒤로가기 </a>
 </div>
   <div class ="atag">
     <?php
