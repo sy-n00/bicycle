@@ -25,7 +25,7 @@
     '대여수' => $row1['대여수'],
     '반납수'=> $row1['반납수']
   );
-  $emp_info['대여수']-$emp_info['반납수'] > 0 ? $state = "포화" : $state = "부족";
+  $emp_info['대여수']-$emp_info['반납수'] <= 0 ? $state = "포화" : $state = "부족";
   $query3 = "SELECT *,
     ( 6371 * acos( cos( radians({$lat}) ) * cos( radians( latitude ) ) *
     cos( radians( longitude ) - radians({$lon}) ) + sin( radians({$lat}) ) * sin( radians( latitude ) ) ) ) AS distance
