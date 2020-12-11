@@ -116,5 +116,6 @@
              </tr>
              <?=$article?>
       </div>
+    </div>
   </body>
 </html>
