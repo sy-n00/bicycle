@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="ko">
 <?php
   $link = mysqli_connect('localhost', 'root', '', 'bicycle');
   $rental = mysqli_real_escape_string($link, $_POST['num']);
@@ -45,7 +46,6 @@
     }
 ?>
 
-<html lang="ko">
   <head>
     <meta charset="utf-8">
     <title>따릉이</title>
