@@ -57,7 +57,7 @@
       }
       #jb-header {
         padding: 20px;
-        margin-bottom: 20px;
+        margin-bottom: -20px;
       }
       #jb-content {
         width: 900px;
@@ -80,36 +80,41 @@
         padding: 20px;
         border: 1px solid #BCBCBC;
       }
+      hr {
+      width: 100%;
+      color : #A6A2A2;
+      margin-bottom: 20px;
+      }
+      table {
+        width: 100%;
+        border-top: 1px solid green;
+        border-collapse: collapse;
+        text-align: center;
+      }
+      th, td {
+        border-bottom: 1px solid green;
+        padding: 10px;
+      }
     </style>
   </head>
   <body>
     <div id="jb-container">
       <div id="jb-header">
         <a href="index.php"><img src = "bike.png" ></a>
+        <h2><?=$time?>:00:00 - <?=$time+1?>:00:00 시간대의</h2>
+        <h2><<?=$r_p?>> 대여소는 현재 <?=$state?> 상태 입니다.</h2>
       </div>
       <div id="jb-content">
-        <h2><?=$time?>:00:00 - <?=$time+1?>:00:00 시간대의</h2>
-        <h2><?=$r_p?>는 현재 <?=$state?>입니다.</h2>
-        <h2><?=$r_p?>의 근처 대여소</h2>
-        <style>
-          table {
-            width: 100%;
-            border-top: 1px solid green;
-            border-collapse: collapse;
-          }
-          th, td {
-            border-bottom: 1px solid green;
-            padding: 10px;
-          }
-        </style>
-        <a>가장 가까운 거리 순부터 출력됩니다</a>
+        <h3><<?=$r_p?>>의 근처 대여소</h3>
+        <hr>
         <table border="1">
-        <tr>
-        <th>대여소번호</th>
-        <th>대여소명</th>
-        <th>자치구</th>
-        <th>주소</th>
-        </tr>
-        <?=$article?>
+             <tr>
+             <th>대여소번호</th>
+             <th>대여소명</th>
+             <th>자치구</th>
+             <th>주소</th>
+             </tr>
+             <?=$article?>
       </div>
+  </body>
 </html>
