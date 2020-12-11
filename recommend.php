@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <?php
   $link = mysqli_connect('localhost', 'root', '1234', 'bicycle');
-  $rental = mysqli_real_escape_string($link, $_POST['num']);
-  $s_time = mysqli_real_escape_string($link, $_POST['a']);
+  $rental = mysqli_real_escape_string($link, $_POST['num']); //검색할 대여소 번호
+  $s_time = mysqli_real_escape_string($link, $_POST['a']); //검색할 
   $query = "SELECT rentalplace, latitude, longitude from rentalplace_info where rentalplace_num = {$rental}"; //대여소번호를 통해 검
   $result = mysqli_query($link, $query);
   $row = mysqli_fetch_array($result);
-  $time = mysqli_real_escape_string($link, $_POST['a']);
-  $num = mysqli_real_escape_string($link, $_POST['num']);
   $r_p = $row['rentalplace']; //검색한 대여소
   $lat = $row['latitude']; //검색한 위도
   $lon = $row['longitude']; //검색한 경도
+
   $query = "SELECT substring(ren_date_time,1,7),
     (count(case when substring(ren_date_time,12,2) = {$s_time} then 1 end)/31) AS '대여수',
     substring(return_datetime,1,7),
