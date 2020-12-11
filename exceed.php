@@ -1,6 +1,10 @@
 <?php
     $link = mysqli_connect('localhost', 'root', '', 'bicycle');
 
+    if(mysqli_connect_error($link)){
+        echo "fail";
+        echo "error: ", mysqli_connect_error();
+    }
     $query = "select gu, name, bannap-rental AS '포화'
     from rentalreturn2
     where bannap-rental > 0
