@@ -1,5 +1,5 @@
 <?php
-    $link = mysqli_connect('localhost', 'root', '1234', 'bicycle');
+    $link =  mysqli_connect("localhost", "admin", "admin", 'bicycle');
 
     if(isset($_POST['gu'])) {
       $filtered = mysqli_real_escape_string($link, $_POST['gu']);
