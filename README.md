@@ -1,46 +1,48 @@
 # bicycle
 성신여자대학교 2020-2 데이터베이스프로그래밍 수업 팀1(t1) 기말과제
 
-### 제작 동기
+## 제작 동기
 따릉이 이용시 
 
-### 목표
-구 별, 월 별, 시간대 별 따릉이 대여소의 자전거 포화, 부족 상태를 표시하여 
-<br>따릉이 이용자들이 해당 정보를 참고해 따릉이 대여에 불편함이 없도록 한다.
+## 목표
+- 사용자가 입력한 구의 자전거 포화, 부족 대여소를 확인하여 사용자는 본인이 이용하는 대여소가 평균적으로 어떤 상태인지 확인이 가능. 
+- 각 구의 따릉이 대여, 반납량을 시각화하여 시민들이 따릉이 이용량을 한 눈에 확인할 수 있도록 함.
+- 시간대 별 따릉이 대여소의 자전거 포화, 부족 상태를 표시하여 따릉이 사용자들이 원하는 시간대에
+이용을 원하는 대여소가 평균적으로 자전거가 남아있는지 확인할 수 있게 하여 자전거가 없어 다른 대여소를 찾아가는 헛걸음을 하지 않도록 하고, 따릉이 사업 종사자(따릉이 배치 및 관리 담당자)에게는 각 대여소의 평균 이용량을 파악할 수 있게 하여 자전거 배치에 도움을 줄 수 있도록 함.
+- 자전거가 선택한 시간대에 평균적으로 부족 상태일 경우 주변 대여소 목록을 표시하여 사용자가 근처 다른 정류소에서 자전거를 대여할 수 있도록 함.
 
-### 제공 기능
+## 제공 기능
 - 각 구의 대여 반납 이용량을 시각화한 그래프 확인(한 달 기준)
 - 각 구별 자전거 포화 대여소 확인
 - 각 구별 자전거 부족 대여소 확인
 - 입력한 자전거 대여소의 자전거 대수 포화/부족 상태 확인
 - 입력한 자전거 대여소와 가장 가까운 자전거 대여소 추천
 
-### 각 페이지 별 소개 및 이용방법
-#### 1. Index 페이지 (index.php)
+## 각 페이지 별 소개 및 이용방법
+### 1. Index 페이지 
    - 자전거 포화,부족 확인 링크 연결
    - 원하는 대여소, 시간 링크 연결 
-   <img width="580" src="https://user-images.githubusercontent.com/70589857/101937312-0cbb7380-3c25-11eb-87ac-2aa6bd1722f4.PNG">
+<img width="400" src="https://user-images.githubusercontent.com/70589857/101937312-0cbb7380-3c25-11eb-87ac-2aa6bd1722f4.PNG">
 
 
-
-#### 2. 자전거 포화/부족 상태 확인과 구별 자전거 대여, 반납 비교 그래프
-   - 전체 정류소의 자전거 포화/부족 상태 확인 (exceed.php, shortage.php)
-   - 구를 입력하면 원하는 구의 포화/부족 상태 확인 가능 (exceed_gu.php shortage_gu.php)
+### 2. 자전거 포화/부족 상태 확인과 구별 자전거 대여, 반납 비교 그래프
+   - 전체 대여소의 자전거 포화/부족 상태 확인
+   - 구를 입력하면 원하는 구의 포화/부족 상태 확인 가능
    <img width="580" alt="exceed" src="https://user-images.githubusercontent.com/70560199/101939637-9caeec80-3c28-11eb-9250-c2583740bfdc.PNG">
    <img width="580" alt="exceed_gu" src="https://user-images.githubusercontent.com/70560199/101938956-9ff5a880-3c27-11eb-9c83-1b02a0d48d7c.PNG">
    <img width="580" alt="shortage" src="https://user-images.githubusercontent.com/70560199/101938977-a6842000-3c27-11eb-8f06-b9c5e642f370.PNG">
    <img width="580" alt="shortage_gu" src="https://user-images.githubusercontent.com/70560199/101938982-a8e67a00-3c27-11eb-87f0-750da8c2e731.PNG">
    
-   - 각 구별로 자전거 대여, 반납 개수를 한 눈에 쉽게 비교하기 위하여 막대 그래프로 표현 (graph.php, make_charts_parts.php)
+   - 각 구별로 자전거 대여, 반납 개수를 한 눈에 쉽게 비교하기 위하여 막대 그래프로 표현
    <img width="767" alt="graph" src="https://user-images.githubusercontent.com/70560199/101939041-c0bdfe00-3c27-11eb-80a0-fa05a8415464.PNG">
 
 
-#### 3. 시간대별 대여소의 자전거 포화, 부족 상태 확인 및 가까운 대여소 추천 페이지 (recommend.php)
+### 3. 시간대별 대여소의 자전거 포화, 부족 상태 확인 및 가까운 대여소 추천 페이지 
    - 원하는 시간대를 한 시간 단위로 선택
-  <img width="580" src="https://user-images.githubusercontent.com/70560199/101939637-9caeec80-3c28-11eb-9250-c2583740bfdc.PNG">
+  <img width="400" src="https://user-images.githubusercontent.com/70579136/101970733-9001b700-3c6f-11eb-8b3f-eea86e83c224.png">
   
    - 원하는 대여소의 대여소 번호를 입력
-   <img width="580" src="https://user-images.githubusercontent.com/70579136/101970441-ba527500-3c6d-11eb-843a-e257ce613e30.PNG">
+   <img width="400" src="https://user-images.githubusercontent.com/70579136/101970441-ba527500-3c6d-11eb-843a-e257ce613e30.PNG">
    
    - 모든 항목을 입력하고 go 버튼을 클릭
    <img width="580" src="https://user-images.githubusercontent.com/70579136/101970464-e79f2300-3c6d-11eb-8dcf-7a1a6048d171.PNG">
@@ -50,19 +52,19 @@
    4) 입력한 대여소와 일정 거리 내에 있는 대여소가 가장 가까운 곳부터 출력<br>
    5) 클릭 시 index.php 페이지로 이동
 
-### 구축 환경
+## 구축 환경
 서버 : Ubuntu Server 20.04 LTS (HVM) - AWS EC2
 <br>데이터베이스 : mariaDB
 <br>
 
-### 사용 데이터 및 출처
+## 사용 데이터 및 출처
 서울특별시에서 제공하는 '서울 열린데이터 광장' 사이트를 이용.
 
-- 서울특별시 공공자전거 대여이력 정보
+- 서울특별시 공공자전거 대여이력 정보 (2020년 5월 데이터 - 제작당시 가장 최근 데이터 이용)
 <br>https://data.seoul.go.kr/dataList/OA-15182/F/1/datasetView.do
-- 공공자전거 대여소별 이용정보(월별) - 대여소별 대여 반납 정보
+- 공공자전거 대여소별 이용정보(월별, 2020년 5월 데이터) - 대여소별 대여 반납 정보 
 <br>https://data.seoul.go.kr/dataList/OA-15249/F/1/datasetView.do
 - 공공자전거 대여소 정보
 <br>https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do
 
-### 역할분담
+## 역할분담
