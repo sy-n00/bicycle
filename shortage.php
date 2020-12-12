@@ -60,7 +60,7 @@ mysqli_close($link);
 </head>
 <body>
   <div style="text-align : center;">
-      <img src = "bike.png">
+      <a href="index.php"><img src = "bike.png"></a>
         <p></p>
   </div>
 <br>
