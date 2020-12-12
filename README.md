@@ -37,7 +37,19 @@
 
 
 ##### 3. 시간대별 대여소의 자전거 포화, 부족 상태확인 및 가까운 대여소 추천 페이지
-   - 
+   - 원하는 시간대를 한 시간 단위로 선택
+  <img width="400" src="https://user-images.githubusercontent.com/70560199/101939637-9caeec80-3c28-11eb-9250-c2583740bfdc.PNG">
+  
+   - 원하는 대여소의 대여소 번호를 입력
+   <img width="400" src="https://user-images.githubusercontent.com/70579136/101970441-ba527500-3c6d-11eb-843a-e257ce613e30.PNG">
+   
+   - 모든 항목을 입력하고 go 버튼을 클릭
+   <img width="400" src="https://user-images.githubusercontent.com/70579136/101970464-e79f2300-3c6d-11eb-8dcf-7a1a6048d171.PNG">
+   1) 선택한 시간대 확인
+   2) 입력한 대여소의 대여소 명 확인
+   3) 입력한 대여소의 자전거 포화, 부족 상태 확인
+   4) 입력한 대여소와 일정 거리 내에 있는 대여소가 가장 가까운 곳부터 
+   5) 클릭 시 index.php 페이지로 이동
 
 ### 구축 환경
 서버 : Ubuntu Server 20.04 LTS (HVM) - AWS EC2
