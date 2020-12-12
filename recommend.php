@@ -21,9 +21,9 @@
   $lon = $row['longitude']; //검색한 경도
 
   $query = "SELECT substring(ren_date_time,1,7),
-    (count(case when substring(ren_date_time,12,2) = {$s_time} then 1 end)/31) AS '대여수',
+    (count(case when substring(ren_date_time,12,2) = '{$s_time}' then 1 end)/31) AS '대여수',
     substring(return_datetime,1,7),
-    (count(case when substring(return_datetime,12,2) = {$s_time} then 1 end)/31) AS '반납수'
+    (count(case when substring(return_datetime,12,2) = '{$s_time}' then 1 end)/31) AS '반납수'
     from rental_05 where rental_num = {$rental}
     AND substring(ren_date_time, 1, 7) not in ('2020-04') AND substring(return_datetime, 1, 7) not in ('2020-04')
     group by substring(ren_date_time,1,7),substring(return_datetime,1,7)";
