@@ -1,5 +1,5 @@
 <?php
-    $link =  mysqli_connect("localhost", "admin", "admin", 'bicycle');
+    $link =  mysqli_connect("localhost", "admin", "admin", "bicycle");
 
     if(isset($_POST['gu'])) {
       $filtered = mysqli_real_escape_string($link, $_POST['gu']);
@@ -9,7 +9,7 @@
   }
 
     $query = "select gu, name, bannap-rental AS '포화'
-    from rentalreturn2
+    from rentalreturn
     where bannap-rental < 0 and gu='{$filtered}'
     ";
 
