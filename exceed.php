@@ -45,7 +45,7 @@ mysqli_close($link);
     text-align: center;
   }
   table {
-    width: 60%;
+    width: 70%;
     margin: auto;
     height: 100px;
     text-align: center;
