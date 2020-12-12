@@ -58,13 +58,12 @@
    
    - 예외처리
    > 대여소번호 입력안하면 오류메시지 출력
-<img width="150" src="https://user-images.githubusercontent.com/70579136/101985844-c110d480-3ccd-11eb-820f-abc8f541db10.PNG">
+<img width="200" src="https://user-images.githubusercontent.com/70579136/101985844-c110d480-3ccd-11eb-820f-abc8f541db10.PNG">
+   
    > 대여소 번호에 숫자외의 값이 들어가면 오류메시지 출력
-<img width="150" src="https://user-images.githubusercontent.com/70579136/101985840-bd7d4d80-3ccd-11eb-9234-8c08d429ac53.PNG">
-<img width="150" src="https://user-images.githubusercontent.com/70579136/101985854-cbcb6980-3ccd-11eb-82c8-f2506a16e0a6.PNG">
-<img width="150" src="https://user-images.githubusercontent.com/70579136/101985855-d0901d80-3ccd-11eb-99be-313514a53ed6.PNG">
+<img width="200" src="https://user-images.githubusercontent.com/70579136/101985840-bd7d4d80-3ccd-11eb-9234-8c08d429ac53.PNG"><img width="200" src="https://user-images.githubusercontent.com/70579136/101985854-cbcb6980-3ccd-11eb-82c8-f2506a16e0a6.PNG"><img width="200" src="https://user-images.githubusercontent.com/70579136/101985855-d0901d80-3ccd-11eb-99be-313514a53ed6.PNG">
    > 시간대 선택 안하면 오류메시지 출력
-<img width="150" src="https://user-images.githubusercontent.com/70579136/101985856-d1c14a80-3ccd-11eb-9152-3938b25a9e58.PNG">
+<img width="200" src="https://user-images.githubusercontent.com/70579136/101985856-d1c14a80-3ccd-11eb-9152-3938b25a9e58.PNG">
    > 없는 대여소번호를 입력하거나 대여기록이 없는 대여소번호 입력 시 오류페이지로 이동
 <img width="500" src="https://user-images.githubusercontent.com/70579136/101985858-d554d180-3ccd-11eb-91a3-6dd723c77352.PNG">
 
