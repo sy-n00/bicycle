@@ -1,5 +1,5 @@
 <?php
-    $link =  mysqli_connect("localhost", "admin", "admin", 'bicycle');
+    $link =  mysqli_connect("localhost", "admin", "admin", "bicycle");
 
     if(mysqli_connect_error($link)){
         echo "fail";
@@ -7,7 +7,7 @@
     }
 
     $query = "select gu, name, bannap-rental AS '포화'
-    from rentalreturn2
+    from rentalreturn
     where bannap-rental > 0
     ";
 
