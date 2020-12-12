@@ -66,7 +66,7 @@
 
 - 서울특별시 공공자전거 대여이력 정보 (2020년 5월 데이터)
 <br>https://data.seoul.go.kr/dataList/OA-15182/F/1/datasetView.do
-- 공공자전거 대여소별 이용정보 - 대여소별 대여 반납 정보 (월별, 2020년 5월 데이터)  
+- 공공자전거 대여소별 이용정보 - 대여소별 대여,납 정보 (월별, 2020년 5월 데이터) 
 <br>https://data.seoul.go.kr/dataList/OA-15249/F/1/datasetView.do
 - 공공자전거 대여소 정보
 <br>https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do
