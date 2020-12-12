@@ -7,14 +7,14 @@
     }
 
     $query = "select gu, name, bannap-rental AS '포화'
-    from rentalreturn
+    from rentalreturn2
     where bannap-rental > 0
     ";
 
     if(isset($_POST['gu'])){
     $filtered = $filtered = mysqli_real_escape_string($link, $_POST['gu']);
     $query = "select gu, name, bannap-rental AS '포화'
-    from rentalreturn
+    from rentalreturn2
     where bannap-rental > 0 and gu= '{$filtered}'
     "; 
   }
