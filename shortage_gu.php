@@ -8,7 +8,7 @@
     $filtered = mysqli_real_escape_string($link, $_GET['gu']);
   }
 
-    $query = "select gu, name, bannap-rental AS '포화'
+    $query = "select gu, name, abs(bannap-rental) AS '포화'
     from rentalreturn
     where bannap-rental < 0 and gu='{$filtered}'
     ";
@@ -47,7 +47,7 @@
     text-align: center;
   }
   table {
-    width: 60%;
+    width: 70%;
     margin: auto;
     height: 100px;
     text-align: center;
