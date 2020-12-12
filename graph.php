@@ -1,6 +1,8 @@
 <?php
 require_once './make_chart_parts.php';
 
+// select gu, sum(대여), sum(반납) from rentalreturn group by gu;
+
 $data = array();
 $data[] = array('', '대여', '반납');
 $data[] = array('강남구', 85286, 81978);
