@@ -47,7 +47,7 @@
     text-align: center;
   }
   table {
-    width: 80%;
+    width: 70%;
     margin: auto;
     height: 100px;
     text-align: center;
