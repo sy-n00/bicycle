@@ -11,6 +11,14 @@
     where bannap-rental > 0
     ";
 
+    if(isset($_POST['gu'])){
+    $filtered = $filtered = mysqli_real_escape_string($link, $_POST['gu']);
+    $query = "select gu, name, bannap-rental AS '포화'
+    from rentalreturn
+    where bannap-rental > 0 and gu= '{$filtered}'
+    "; 
+  }
+
     $result = mysqli_query($link, $query);
     $article = '';
     while ($row = mysqli_fetch_array($result)) {
@@ -63,7 +71,7 @@ mysqli_close($link);
 <br>
   <h2> 구별 자전거 포화 정보</h2>
 
-  <form action="exceed_gu.php" method="POST">
+  <form action="exceed.php" method="POST">
       <input type="text" name= "gu"  placeholder="구">
       <input type="submit" value="Search">
   </form>
