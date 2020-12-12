@@ -1,8 +1,8 @@
 <?php
-    $link = mysqli_connect("localhost", "admin", "admin", 'bicycle');
+    $link = mysqli_connect("localhost", "admin", "admin", "bicycle");
 
     $query = "select gu, name, bannap-rental AS '부족'
-    from rentalreturn2
+    from rentalreturn
     where bannap-rental < 0
     ";
 
