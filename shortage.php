@@ -6,6 +6,14 @@
     where bannap-rental < 0
     ";
 
+     if(isset($_POST['gu'])){
+      $filtered = $filtered = mysqli_real_escape_string($link, $_POST['gu']);
+      $query = "select gu, name, abs(bannap-rental) AS '부족'
+      from rentalreturn
+      where bannap-rental < 0 and gu='{$filtered}'
+      ";
+     }
+
     $result = mysqli_query($link, $query);
     $article = '';
     while ($row = mysqli_fetch_array($result)) {
@@ -57,7 +65,7 @@ mysqli_close($link);
   </div>
 <br>
   <h2> 구별 자전거 부족 정보</h2>
-  <form action="shortage_gu.php" method="POST">
+  <form action="shortage.php" method="POST">
       <input type="text" name= "gu"  placeholder="구">
       <input type="submit" value="Search">
     </form>
