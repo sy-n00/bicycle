@@ -40,7 +40,7 @@ mysqli_close($link);
       text-align: center;
     }
     table {
-      width: 50%;
+      width: 60%;
       margin: auto;
       height: 100px;
       text-align: center;
