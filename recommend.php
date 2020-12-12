@@ -8,7 +8,7 @@
   $result = mysqli_query($link, $query);
   $row = mysqli_fetch_array($result);
   $valid = $row['count(rental_num)'];
-  if ($valid[0] == 0) {
+  if ($valid == 0) {
       echo '존재하지 않는 대여소이거나 이용기록이 없는 대여소입니다.    <a href="index.php">뒤로가기</a>';
       return (0);
   }
