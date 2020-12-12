@@ -19,7 +19,8 @@
 #### 1. Index 페이지 (index.php)
    - 자전거 포화,부족 확인 링크 연결
    - 원하는 대여소, 시간 링크 연결 
-![index](width="400" https://user-images.githubusercontent.com/70589857/101937312-0cbb7380-3c25-11eb-87ac-2aa6bd1722f4.PNG)
+   <img width="580" src="https://user-images.githubusercontent.com/70589857/101937312-0cbb7380-3c25-11eb-87ac-2aa6bd1722f4.PNG">
+
 
 
 #### 2. 자전거 포화/부족 상태 확인과 구별 자전거 대여, 반납 비교 그래프
