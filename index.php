@@ -65,10 +65,11 @@
     <div id="jb-sidebar">
     <form action="recommend.php" method="post">
       <h2><strong>원하시는 정류소는 어디신가요?</strong></h2>
-         <p><input type="INT" size="10" name="num" placeholder="ex)21056"></p>
+         <p><input type="INT" size="10" name="num" placeholder="ex)21056"
+           pattern="[0-9]+" required></p>
          <h2><strong>이용하고 싶은 시간은 언제신가요?</strong></h2>
-              <select name= "a">
-              <option label ="이용시간 ex)0:00:00">
+              <select name= "a" required>
+              <option label ="이용시간 ex)00:00:00" hidden>
                 <option value="00"> 0:00:00 - 1:00:00  </option>
                 <option value="01"> 1:00:00 - 2:00:00  </option>
                 <option value="02"> 2:00:00 - 3:00:00  </option>
@@ -95,7 +96,7 @@
                 <option value="23">23:00:00 - 24:00:00  </option>
               </select>
                 <p></p>
-              <input type="submit" value="GO">
+              <input type="submit" value="GO" inquired>
             </form>
       </div>
       <div id="jb-footer">
