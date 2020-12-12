@@ -1,7 +1,7 @@
 <?php
     $link = mysqli_connect("localhost", "admin", "admin", "bicycle");
 
-    $query = "select gu, name, bannap-rental AS '부족'
+    $query = "select gu, name, abs(bannap-rental) AS '부족'
     from rentalreturn
     where bannap-rental < 0
     ";
@@ -40,7 +40,7 @@ mysqli_close($link);
       text-align: center;
     }
     table {
-      width: 60%;
+      width: 70%;
       margin: auto;
       height: 100px;
       text-align: center;
