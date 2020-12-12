@@ -1,5 +1,5 @@
 <?php
-require_once './make_chart_parts.html';
+require_once './make_chart_parts.php';
 
 $data = array();
 $data[] = array('', '대여', '반납');
