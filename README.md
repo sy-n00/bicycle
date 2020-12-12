@@ -19,18 +19,16 @@
 ##### 1. Index 페이지
    - 자전거 포화,부족 확인 링크 연결
    - 원하는 대여소, 시간 링크 연결 
-
-
-![index](https://user-images.githubusercontent.com/70589857/101937312-0cbb7380-3c25-11eb-87ac-2aa6bd1722f4.PNG)
+![index](width="400" https://user-images.githubusercontent.com/70589857/101937312-0cbb7380-3c25-11eb-87ac-2aa6bd1722f4.PNG)
 
 
 ##### 2. 자전거 포화/부족 상태 확인과 구별 자전거 대여, 반납 비교 그래프
    - 전체 정류소의 자전거 포화/부족 상태 확인
    - 구를 입력하면 원하는 구의 포화/부족 상태 확인 가능
-   <img width="579" alt="exceed" src="https://user-images.githubusercontent.com/70560199/101939637-9caeec80-3c28-11eb-9250-c2583740bfdc.PNG">
-   <img width="618" alt="exceed_gu" src="https://user-images.githubusercontent.com/70560199/101938956-9ff5a880-3c27-11eb-9c83-1b02a0d48d7c.PNG">
-   <img width="584" alt="shortage" src="https://user-images.githubusercontent.com/70560199/101938977-a6842000-3c27-11eb-8f06-b9c5e642f370.PNG">
-   <img width="572" alt="shortage_gu" src="https://user-images.githubusercontent.com/70560199/101938982-a8e67a00-3c27-11eb-87f0-750da8c2e731.PNG">
+   <img width="400" alt="exceed" src="https://user-images.githubusercontent.com/70560199/101939637-9caeec80-3c28-11eb-9250-c2583740bfdc.PNG">
+   <img width="400" alt="exceed_gu" src="https://user-images.githubusercontent.com/70560199/101938956-9ff5a880-3c27-11eb-9c83-1b02a0d48d7c.PNG">
+   <img width="400" alt="shortage" src="https://user-images.githubusercontent.com/70560199/101938977-a6842000-3c27-11eb-8f06-b9c5e642f370.PNG">
+   <img width="400" alt="shortage_gu" src="https://user-images.githubusercontent.com/70560199/101938982-a8e67a00-3c27-11eb-87f0-750da8c2e731.PNG">
    
    - 각 구별로 자전거 대여, 반납 개수를 한 눈에 쉽게 비교하기 위하여 막대 그래프로 표현
    <img width="767" alt="graph" src="https://user-images.githubusercontent.com/70560199/101939041-c0bdfe00-3c27-11eb-80a0-fa05a8415464.PNG">
@@ -45,10 +43,10 @@
    
    - 모든 항목을 입력하고 go 버튼을 클릭
    <img width="400" src="https://user-images.githubusercontent.com/70579136/101970464-e79f2300-3c6d-11eb-8dcf-7a1a6048d171.PNG">
-   1) 선택한 시간대 확인
-   2) 입력한 대여소의 대여소 명 확인
-   3) 입력한 대여소의 자전거 포화, 부족 상태 확인
-   4) 입력한 대여소와 일정 거리 내에 있는 대여소가 가장 가까운 곳부터 
+   1) 선택한 시간대 확인<br>
+   2) 입력한 대여소의 대여소 명 확인<br>
+   3) 입력한 대여소의 자전거 포화, 부족 상태 확인<br>
+   4) 입력한 대여소와 일정 거리 내에 있는 대여소가 가장 가까운 곳부터 출력<br>
    5) 클릭 시 index.php 페이지로 이동
 
 ### 구축 환경
