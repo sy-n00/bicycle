@@ -33,8 +33,8 @@ $data[] = array('중랑구',  73082, 74562);
 $options = array(
   'title' => '구별 대여 반납 비교 현황',
   'titleTextStyle' => array('fontSize' => 26),
-  'width' => 1500,
-  'height' => 800,
+  'width' => 1000,
+  'height' => 1200,
   'colors' => array('#39C948', '#056D10')
 );
 
@@ -52,6 +52,11 @@ list($chart, $div) = makeChartParts($data, $options, $type);
   .btag {
     text-align: center;
   }
+  .atag {
+    width:100%;
+    text-align:center;
+  }
+    .in{display:inline-block;}
   </style>
   <script src = "https://www.google.com/jsapi"></script>
   <script>
@@ -62,16 +67,18 @@ list($chart, $div) = makeChartParts($data, $options, $type);
 </head>
 <body>
   <div style="text-align : center;">
-      <img src = "bike.png">
+    <a href="index.php"><img src = "bike.png"></a>
         <p></p>
   </div>
   <div class ="btag">
   <a href="index.php"> 뒤로가기 </a>
 </div>
   <div class ="atag">
-    <?php
+    <div class ="in">
+      <?php
       echo $div;
-    ?>
+      ?>
+    </div>
   </div>
 </body>
 </html>
