@@ -67,7 +67,7 @@ mysqli_close($link);
       <input type="submit" value="Search">
   </form>
   <div class ="atag">
-  <a href="index.html"> 뒤로가기 </a>
+  <a href="index.php"> 뒤로가기 </a>
 </div>
   <br>
   <table>
