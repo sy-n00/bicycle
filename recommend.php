@@ -2,7 +2,17 @@
 <?php
   $link = mysqli_connect('localhost', 'admin', 'admin', 'bicycle');
   $rental = mysqli_real_escape_string($link, $_POST['num']); //검색할 대여소 번호
-  $s_time = mysqli_real_escape_string($link, $_POST['a']); //검색할 
+  $s_time = mysqli_real_escape_string($link, $_POST['a']); //검색할 시간대
+
+  $query = "SELECT count(rental_num) from rental_05 where rental_num = {$rental}";
+  $result = mysqli_query($link, $query);
+  $row = mysqli_fetch_array($result);
+  $valid = $row['count(rental_num)'];
+  if ($valid[0] == 0) {
+      echo '존재하지 않는 대여소이거나 이용기록이 없는 대여소입니다.    <a href="index.php">뒤로가기</a>';
+      return (0);
+  }
+
   $query = "SELECT rentalplace, latitude, longitude from rentalplace_info where rentalplace_num = {$rental}"; //대여소번호를 통해 검
   $result = mysqli_query($link, $query);
   $row = mysqli_fetch_array($result);
@@ -24,7 +34,7 @@
     '대여수' => $row1['대여수'],
     '반납수'=> $row1['반납수']
   );
-  $emp_info['대여수']-$emp_info['반납수'] <= 0 ? $state = "포화" : $state = "부족";
+  $emp_info['반납수']-$emp_info['대여수'] > 0 ? $state = "포화" : $state = "부족";
   $query3 = "SELECT *,
     ( 6371 * acos( cos( radians({$lat}) ) * cos( radians( latitude ) ) *
     cos( radians( longitude ) - radians({$lon}) ) + sin( radians({$lat}) ) * sin( radians( latitude ) ) ) ) AS distance
@@ -98,9 +108,10 @@
   <body>
     <div id="jb-container">
       <div id="jb-header">
-        <a href="index.php"><img src = "bike.png" ></a>
+        <a href="index.php"><img src = "bike.png" ></a>&emsp;&emsp;
+          <a href="index.php">뒤로가기</a>
         <h2><?=$s_time?>:00:00 - <?=$s_time+1?>:00:00 시간대의</h2>
-        <h2><<?=$r_p?>> 대여소는 평균적으로 <?=$state?> 상태 입니다.&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<a href="index.php">뒤로가기</a></h2>
+        <h2><<?=$r_p?>> 대여소는 평균적으로 <?=$state?> 상태 입니다.</h2>
       </div>
       <div id="jb-content">
         <h3><<?=$r_p?>>의 근처 대여소</h3>
