@@ -25,10 +25,10 @@
 ##### 2. 자전거 포화/부족 상태 확인과 구별 자전거 대여, 반납 비교 그래프
    - 전체 정류소의 자전거 포화/부족 상태 확인
    - 구를 입력하면 원하는 구의 포화/부족 상태 확인 가능
-   <img width="400" alt="exceed" src="https://user-images.githubusercontent.com/70560199/101939637-9caeec80-3c28-11eb-9250-c2583740bfdc.PNG">
-   <img width="400" alt="exceed_gu" src="https://user-images.githubusercontent.com/70560199/101938956-9ff5a880-3c27-11eb-9c83-1b02a0d48d7c.PNG">
-   <img width="400" alt="shortage" src="https://user-images.githubusercontent.com/70560199/101938977-a6842000-3c27-11eb-8f06-b9c5e642f370.PNG">
-   <img width="400" alt="shortage_gu" src="https://user-images.githubusercontent.com/70560199/101938982-a8e67a00-3c27-11eb-87f0-750da8c2e731.PNG">
+   <img width="580" alt="exceed" src="https://user-images.githubusercontent.com/70560199/101939637-9caeec80-3c28-11eb-9250-c2583740bfdc.PNG">
+   <img width="580" alt="exceed_gu" src="https://user-images.githubusercontent.com/70560199/101938956-9ff5a880-3c27-11eb-9c83-1b02a0d48d7c.PNG">
+   <img width="580" alt="shortage" src="https://user-images.githubusercontent.com/70560199/101938977-a6842000-3c27-11eb-8f06-b9c5e642f370.PNG">
+   <img width="580" alt="shortage_gu" src="https://user-images.githubusercontent.com/70560199/101938982-a8e67a00-3c27-11eb-87f0-750da8c2e731.PNG">
    
    - 각 구별로 자전거 대여, 반납 개수를 한 눈에 쉽게 비교하기 위하여 막대 그래프로 표현
    <img width="767" alt="graph" src="https://user-images.githubusercontent.com/70560199/101939041-c0bdfe00-3c27-11eb-80a0-fa05a8415464.PNG">
