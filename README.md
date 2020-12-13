@@ -38,7 +38,7 @@
    - 전체 대여소의 자전거 포화/부족 상태 확인
    - 구를 입력하면 원하는 구의 포화/부족 상태 확인 가능
    
-   ### 포화 상태 확인
+   ### 2-1. 포화 상태 확인
    <img width="600" alt="exceed" src="https://user-images.githubusercontent.com/53183320/102006609-a853fd80-3d65-11eb-8abf-97724b7d873b.PNG">
    <img width="600" alt="exceed_gu" src="https://user-images.githubusercontent.com/53183320/102006615-ab4eee00-3d65-11eb-871b-3a9420f87803.PNG">
    <img width="600" alt="shortage" src="https://user-images.githubusercontent.com/70560199/101938977-a6842000-3c27-11eb-8f06-b9c5e642f370.PNG">
