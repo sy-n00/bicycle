@@ -98,8 +98,8 @@
 
 ## 역할분담
 
- - 김보연 : exceed.php, shortage.php, graph.php 코딩
+ - 김보연 : exceed.php, exceed_gu.php, shortage.php, shortage_gu.php, graph.php 코딩
  - 김은서 : Web의 전체적인 UI, index.php 코딩, ec2 서버 도움 
  - 이은지 : ec2 서버,DB 구축, 테이블 생성과 CSV Import, graph.php 코딩, UI 수정 
- - 전현정 : recommned.php 코딩, 
+ - 전현정 : recommned.php 코딩, exceed_gu.php와 shortage_gu.php를 exceed.php와 shortage.php에 합침.
  - 정소연 : 자료 조사 및 정리, 테스트 및 예외처리 코딩, recommend.php 코딩
