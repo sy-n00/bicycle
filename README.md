@@ -66,12 +66,12 @@
 
 
 ### 3. 시간대별 대여소의 자전거 포화, 부족 상태 확인 및 가까운 대여소 추천 페이지 
-   - 원하는 시간대를 한 시간 단위로 선택
-  <img width="600" src="https://user-images.githubusercontent.com/70579136/101970733-9001b700-3c6f-11eb-8b3f-eea86e83c224.png">
-  
    - 원하는 대여소의 대여소 번호를 입력
-   <img width="600" src="https://user-images.githubusercontent.com/70579136/101970441-ba527500-3c6d-11eb-843a-e257ce613e30.PNG">
+   <img width="600" src="https://user-images.githubusercontent.com/53183320/102007055-11894000-3d69-11eb-9f28-aa1d6624d4eb.PNG">
    
+   - 원하는 시간대를 한 시간 단위로 선택
+  <img width="600" src="https://user-images.githubusercontent.com/53183320/102007056-12ba6d00-3d69-11eb-8f1c-c73b689d1f57.PNG">
+  
    - 모든 항목을 입력하고 go 버튼을 클릭
    <img width="600" src="https://user-images.githubusercontent.com/70579136/101970464-e79f2300-3c6d-11eb-8dcf-7a1a6048d171.PNG">
    
