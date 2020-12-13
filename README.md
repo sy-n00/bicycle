@@ -22,19 +22,17 @@
 
 
 ## 구축 환경
-서버 : Ubuntu Server 20.04 LTS (HVM) - AWS EC2
-<br>데이터베이스 : mariaDB
-<br>
+- 웹 서버 : Ubuntu - AWS EC2, Apache Web Server
+- 데이터베이스 : mariaDB
+- 프론트엔드 언어 : HTML
+- 백엔드 언어 : PHP
 
 
 ## 사용 데이터 및 출처
 서울특별시에서 제공하는 '서울 열린데이터 광장' 사이트를 이용.
-- 서울특별시 공공자전거 대여이력 정보 (2020년 5월 데이터)
-<br>https://data.seoul.go.kr/dataList/OA-15182/F/1/datasetView.do
-- 공공자전거 대여소별 이용정보 - 대여소별 대여,납 정보 (월별, 2020년 5월 데이터) 
-<br>https://data.seoul.go.kr/dataList/OA-15249/F/1/datasetView.do
-- 공공자전거 대여소 정보
-<br>https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do
+- <a href ="https://data.seoul.go.kr/dataList/OA-15182/F/1/datasetView.do" >서울특별시 공공자전거 대여이력 정보 (2020년 5월 데이터)</a>
+- <a href ="https://data.seoul.go.kr/dataList/OA-15249/F/1/datasetView.do" >공공자전거 대여소별 이용정보 - 대여소별 대여,납 정보 (월별, 2020년 5월 데이터)</a>
+- <a href ="https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do" >공공자전거 대여소 정보</a>
 
 
 ## 제공 기능
