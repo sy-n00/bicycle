@@ -70,7 +70,7 @@
    <img width="600" src="https://user-images.githubusercontent.com/53183320/102007055-11894000-3d69-11eb-9f28-aa1d6624d4eb.PNG">
    
    - 원하는 시간대를 한 시간 단위로 선택
-  <img width="600" src="https://user-images.githubusercontent.com/53183320/102007056-12ba6d00-3d69-11eb-8f1c-c73b689d1f57.PNG">
+  <img width="600" src="https://user-images.githubusercontent.com/53183320/102007090-59a86280-3d69-11eb-8e38-09bcf88cfadf.PNG">
   
    - 모든 항목을 입력하고 go 버튼을 클릭
    <img width="600" src="https://user-images.githubusercontent.com/70579136/101970464-e79f2300-3c6d-11eb-8dcf-7a1a6048d171.PNG">
