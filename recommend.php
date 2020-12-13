@@ -5,9 +5,14 @@
   $s_time = mysqli_real_escape_string($link, $_POST['a']); //검색할 시간대
 
   $query = "SELECT count(rental_num) from rental_05 where rental_num = {$rental}";
+  print_r($query);
   $result = mysqli_query($link, $query);
+  print_r($result);
   $row = mysqli_fetch_array($result);
-  $valid = $row['count(rental_num)'];
+  Print_r($row);
+  #$valid = $row['count(rental_num)'];
+  $valid = $row[0];
+  print_r($valid);
   if ($valid == 0) {
       echo '존재하지 않는 대여소이거나 이용기록이 없는 대여소입니다.    <a href="index.php">뒤로가기</a>';
       return (0);
