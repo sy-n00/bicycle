@@ -66,11 +66,11 @@
 
 ##### 예외처리
    - 텍스트(구 이름) 입력 안하고 search버튼 클릭 시 오류메시지 출력
-   <img width="150" alt="e1" src="https://user-images.githubusercontent.com/70579136/102008662-9417fc80-3d75-11eb-95c2-8af9a5f2c7e1.PNG">
+   <img width="200" alt="e1" src="https://user-images.githubusercontent.com/70579136/102008662-9417fc80-3d75-11eb-95c2-8af9a5f2c7e1.PNG">
    
    - 숫자, 영어, 기호, 초성이 하나라도 포함되어 있을 시 오류메시지 출력
-<br>(순서대로 숫자, 영어, 기호, 초성, 혼합 입력 시 화면)
-<img width="150" alt="e2" src="https://user-images.githubusercontent.com/70579136/102008664-9712ed00-3d75-11eb-8c87-12ad85e092bf.PNG"><img width="150" alt="e3" src="https://user-images.githubusercontent.com/70579136/102008663-967a5680-3d75-11eb-8b8d-7514e985169d.PNG"><img width="150" alt="e4" src="https://user-images.githubusercontent.com/70579136/102008678-a003be80-3d75-11eb-9417-7ef246941fd2.PNG"><img width="150" alt="e5" src="https://user-images.githubusercontent.com/70579136/102008683-a1cd8200-3d75-11eb-8870-500571f718b0.PNG"><img width="150" alt="e6" src="https://user-images.githubusercontent.com/70579136/102008686-a42fdc00-3d75-11eb-87fe-b1e8ca17adb5.PNG">
+<br>(순서대로 숫자, 영어, 기호, 초성, 혼합 입력 시 화면)<br>
+<img width="200" alt="e2" src="https://user-images.githubusercontent.com/70579136/102008664-9712ed00-3d75-11eb-8c87-12ad85e092bf.PNG"><img width="200" alt="e3" src="https://user-images.githubusercontent.com/70579136/102008663-967a5680-3d75-11eb-8b8d-7514e985169d.PNG"><img width="200" alt="e4" src="https://user-images.githubusercontent.com/70579136/102008678-a003be80-3d75-11eb-9417-7ef246941fd2.PNG"><img width="200" alt="e5" src="https://user-images.githubusercontent.com/70579136/102008683-a1cd8200-3d75-11eb-8870-500571f718b0.PNG"><img width="200" alt="e6" src="https://user-images.githubusercontent.com/70579136/102008686-a42fdc00-3d75-11eb-87fe-b1e8ca17adb5.PNG">
 
 
 
