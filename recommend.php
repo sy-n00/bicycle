@@ -41,7 +41,7 @@
     from rentalplace_info
     HAVING distance between 0.0001 and 1
     ORDER BY distance
-    LIMIT 0,5"; // 검색한 대여소 10km이내에 있는 따릉이 대여소를 보여줌
+    LIMIT 0,5"; // 검색한 대여소 1km이내에 있는 따릉이 대여소를 보여줌
     $result3 = mysqli_query($link, $query3);
     $article = '';
     while ($row3 = mysqli_fetch_array($result3)) {
