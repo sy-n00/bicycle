@@ -1,5 +1,7 @@
-# bicycle
-성신여자대학교 2020-2 데이터베이스프로그래밍 수업 팀1(t1) 기말과제<br><br>
+# 서울 자전거 따릉이 현황
+
+2020-2 성신여자대학교 데이터베이스 프로그래밍 수업 팀1(t1) 기말과제<br><br>
+
 연결링크<br>
 http://ec2-13-209-66-31.ap-northeast-2.compute.amazonaws.com/index.php
 
