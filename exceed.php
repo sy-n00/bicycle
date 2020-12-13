@@ -72,7 +72,7 @@ mysqli_close($link);
   <h2> 구별 자전거 포화 정보</h2>
 
   <form action="exceed.php" method="POST">
-      <input type="text" name= "gu"  placeholder="구">
+      <input type="text" name= "gu"  placeholder="구" pattern="[가-힣]+" required>
       <input type="submit" value="Search">
   </form>
   <div class ="atag">
