@@ -20,6 +20,23 @@
 이용을 원하는 대여소가 평균적으로 자전거가 남아있는지 확인할 수 있게 하여 자전거가 없어 다른 대여소를 찾아가는 헛걸음을 하지 않도록 하고, 따릉이 사업 종사자(따릉이 배치 및 관리 담당자)에게는 각 대여소의 평균 이용량을 파악할 수 있게 하여 자전거 배치에 도움을 줄 수 있도록 함. <br>
 - 자전거가 선택한 시간대에 평균적으로 부족 상태일 경우 주변 대여소 목록을 표시하여 사용자가 근처 다른 정류소에서 자전거를 대여할 수 있도록 함. 
 
+
+## 구축 환경
+서버 : Ubuntu Server 20.04 LTS (HVM) - AWS EC2
+<br>데이터베이스 : mariaDB
+<br>
+
+
+## 사용 데이터 및 출처
+서울특별시에서 제공하는 '서울 열린데이터 광장' 사이트를 이용.
+- 서울특별시 공공자전거 대여이력 정보 (2020년 5월 데이터)
+<br>https://data.seoul.go.kr/dataList/OA-15182/F/1/datasetView.do
+- 공공자전거 대여소별 이용정보 - 대여소별 대여,납 정보 (월별, 2020년 5월 데이터) 
+<br>https://data.seoul.go.kr/dataList/OA-15249/F/1/datasetView.do
+- 공공자전거 대여소 정보
+<br>https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do
+
+
 ## 제공 기능
 - 각 구의 대여 반납 이용량을 시각화한 그래프 확인(한 달 기준)
 - 각 구별 자전거 포화 대여소 확인
@@ -47,18 +64,19 @@
    <img width="600" alt="shortage_gu" src="https://user-images.githubusercontent.com/53183320/102006621-b1dd6580-3d65-11eb-9ec8-300bf18041b3.PNG">
    
    ### 2-3. 구별로 자전거 대여, 반납 개수를 한 눈에 쉽게 비교하기 위하여 막대 그래프로 표현
-   <img width="767" alt="graph" src="https://user-images.githubusercontent.com/53183320/102006630-bb66cd80-3d65-11eb-8936-169fccef0d55.PNG">
+   <img width="600" alt="graph" src="https://user-images.githubusercontent.com/53183320/102006630-bb66cd80-3d65-11eb-8936-169fccef0d55.PNG">
 
 
 ### 3. 시간대별 대여소의 자전거 포화, 부족 상태 확인 및 가까운 대여소 추천 페이지 
    - 원하는 시간대를 한 시간 단위로 선택
-  <img width="400" src="https://user-images.githubusercontent.com/70579136/101970733-9001b700-3c6f-11eb-8b3f-eea86e83c224.png">
+  <img width="600" src="https://user-images.githubusercontent.com/70579136/101970733-9001b700-3c6f-11eb-8b3f-eea86e83c224.png">
   
    - 원하는 대여소의 대여소 번호를 입력
-   <img width="400" src="https://user-images.githubusercontent.com/70579136/101970441-ba527500-3c6d-11eb-843a-e257ce613e30.PNG">
+   <img width="600" src="https://user-images.githubusercontent.com/70579136/101970441-ba527500-3c6d-11eb-843a-e257ce613e30.PNG">
    
    - 모든 항목을 입력하고 go 버튼을 클릭
-   <img width="580" src="https://user-images.githubusercontent.com/70579136/101970464-e79f2300-3c6d-11eb-8dcf-7a1a6048d171.PNG">
+   <img width="600" src="https://user-images.githubusercontent.com/70579136/101970464-e79f2300-3c6d-11eb-8dcf-7a1a6048d171.PNG">
+   
    1) 선택한 시간대 확인<br>
    2) 입력한 대여소의 대여소 명 확인<br>
    3) 입력한 대여소의 자전거 포화, 부족 상태 확인<br>
@@ -81,19 +99,6 @@
 
    
 
-## 구축 환경
-서버 : Ubuntu Server 20.04 LTS (HVM) - AWS EC2
-<br>데이터베이스 : mariaDB
-<br>
 
-## 사용 데이터 및 출처
-서울특별시에서 제공하는 '서울 열린데이터 광장' 사이트를 이용.
-
-- 서울특별시 공공자전거 대여이력 정보 (2020년 5월 데이터)
-<br>https://data.seoul.go.kr/dataList/OA-15182/F/1/datasetView.do
-- 공공자전거 대여소별 이용정보 - 대여소별 대여,납 정보 (월별, 2020년 5월 데이터) 
-<br>https://data.seoul.go.kr/dataList/OA-15249/F/1/datasetView.do
-- 공공자전거 대여소 정보
-<br>https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do
 
 ## 역할분담
