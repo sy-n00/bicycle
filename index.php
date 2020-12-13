@@ -39,7 +39,7 @@
   <body>
     <div id="jb-container">
       <div id="jb-header">
-        <img src = "bike.png">
+        <a href="index.php"><img src = "bike.png"></a>
       </div>
       <div id="jb-content">
           <img src = "map.png">
@@ -56,7 +56,7 @@
             <p></p>
             <input type="submit" value="GO">
           </form>
-          <h2> <strong> 구별 자전거 대여, 반납 비교 </strong> </h2>
+          <h2> <strong> 구별 대여, 반납 비교 </strong> </h2>
           <form action="graph.php" method="post">
             <p></p>
             <input type="submit" value="GO">
