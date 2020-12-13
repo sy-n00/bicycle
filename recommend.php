@@ -9,7 +9,7 @@
   $result = mysqli_query($link, $query);
   print_r($result);
   $row = mysqli_fetch_array($result);
-  rint_r($row);
+  print_r($row);
   #$valid = $row['count(rental_num)'];
   $valid = $row[0];
   print_r($valid);
